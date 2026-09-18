@@ -1,0 +1,16 @@
+# Ambientes Virtuais e Cache
+venv/
+__pycache__/
+*.pyc
+
+# Credenciais e Chaves de Segurança (NUNCA SUBIR)
+chave_gcp.json
+*.json
+
+# Arquivos do dbt
+dbt_analytics/target/
+dbt_analytics/dbt_packages/
+dbt_analytics/logs/
+
+# Arquivos locais de dados
+*.parquet

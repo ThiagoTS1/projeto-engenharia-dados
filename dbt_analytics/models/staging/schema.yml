@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: stg_cotacoes
+    description: "Tabela limpa de cotações de ações vinda do raw_data"
+    columns:
+      - name: data_pregao
+        tests:
+          - not_null
+      - name: ticker
+        tests:
+          - not_null
+          
